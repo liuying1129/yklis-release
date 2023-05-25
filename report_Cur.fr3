@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TfrxReport Version="5.4.6" DataSetName="frxDB_ADO_print" DotMatrixReport="False" IniFile="\Software\Fast Reports" PreviewOptions.Buttons="4095" PreviewOptions.Zoom="1" PrintOptions.Printer="Default" PrintOptions.PrintOnSheet="0" ReportOptions.CreateDate="45065.723701713" ReportOptions.Description.Text="" ReportOptions.LastChange="45071.5903016204" ScriptLanguage="PascalScript" ScriptText.Text="begin&#13;&#10;&#13;&#10;end.">
+<TfrxReport Version="5.4.6" DataSetName="frxDB_ADO_print" DotMatrixReport="False" IniFile="\Software\Fast Reports" PreviewOptions.Buttons="4095" PreviewOptions.Zoom="1" PrintOptions.Printer="Default" PrintOptions.PrintOnSheet="0" ReportOptions.CreateDate="45065.723701713" ReportOptions.Description.Text="" ReportOptions.LastChange="45071.6262418634" ScriptLanguage="PascalScript" ScriptText.Text="begin&#13;&#10;&#13;&#10;end.">
   <Datasets>
     <item DataSetName="ADO_print"/>
     <item DataSetName="ADObasic"/>
@@ -29,7 +29,7 @@
       <TfrxLineView Name="Line1" Left="-0.22047" Top="109.3859" Width="718.1107" Height="0" Color="0" Frame.Typ="4"/>
       <TfrxLineView Name="Line2" Left="-0.22047" Top="127.84261" Width="718.1107" Height="0" Color="0" Frame.Typ="4"/>
     </TfrxPageHeader>
-    <TfrxMasterData Name="MasterData1" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Height="19.65354331" Left="0" Top="211.65368" Width="718.1107" ColumnWidth="0" ColumnGap="0" DataSetName="ADO_print" RowCount="0" Stretched="True">
+    <TfrxMasterData Name="MasterData1" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Height="19.65354331" Left="0" Top="211.65368" Width="718.1107" ColumnWidth="0" ColumnGap="0" DataSetName="ADO_print" RowCount="0">
       <TfrxMemoView Name="Memo2" Left="7.55906" Top="0" Width="166.29932" Height="18.89765" StretchMode="smMaxHeight" AutoWidth="True" Text="[ADO_print.&#34;名称&#34;]"/>
       <TfrxMemoView Name="Memo16" Left="173.85838" Top="0" Width="98.26778" Height="18.89765" AutoWidth="True" Text="[ADO_print.&#34;英文名&#34;]"/>
       <TfrxMemoView Name="Memo17" Left="272.12616" Top="0" Width="188.9765" Height="18.89765" AutoWidth="True" Text="[ADO_print.&#34;检验结果&#34;] [CXZF]"/>
