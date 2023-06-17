@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TfrxReport Version="5.4.6" DataSetName="frxDB_ADO_print" DotMatrixReport="False" IniFile="\Software\Fast Reports" PreviewOptions.Buttons="4095" PreviewOptions.Zoom="1" PrintOptions.Printer="Default" PrintOptions.PrintOnSheet="0" ReportOptions.CreateDate="45065.723701713" ReportOptions.Description.Text="" ReportOptions.LastChange="45090.8816554977" ScriptLanguage="PascalScript" ScriptText.Text="begin&#13;&#10;&#13;&#10;end.">
+<TfrxReport Version="5.4.6" DataSetName="frxDB_ADO_print" DotMatrixReport="False" IniFile="\Software\Fast Reports" PreviewOptions.Buttons="4095" PreviewOptions.Zoom="1" PrintOptions.Printer="Default" PrintOptions.PrintOnSheet="0" ReportOptions.CreateDate="45065.723701713" ReportOptions.Description.Text="" ReportOptions.LastChange="45094.5678761343" ScriptLanguage="PascalScript" ScriptText.Text="begin&#13;&#10;&#13;&#10;end.">
   <Datasets>
     <item DataSetName="ADO_print"/>
     <item DataSetName="ADObasic"/>
   </Datasets>
+  <Variables>
+    <item Name=" alarm symbol"/>
+    <item Name="SymbolHigh" Value="¡ü"/>
+    <item Name="SymbolLow" Value="¡ý"/>
+  </Variables>
   <TfrxDataPage Name="Data" Height="1000" Left="0" Top="0" Width="1000"/>
   <TfrxReportPage Name="Page1" Font.Charset="134" Font.Color="0" Font.Height="-13" Font.Name="ËÎÌå" Font.Style="0" Orientation="poLandscape" PaperWidth="210" PaperHeight="148" PaperSize="11" LeftMargin="10" RightMargin="10" TopMargin="10" BottomMargin="10" ColumnWidth="0" ColumnPositions.Text="" HGuides.Text="" VGuides.Text="">
     <TfrxPageHeader Name="PageHeader1" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Height="120.94488189" Left="0" Top="18.89765" Width="718.1107">
