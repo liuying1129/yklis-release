@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TfrxReport Version="5.4.6" DataSetName="frxDB_ADO_print" DotMatrixReport="False" IniFile="\Software\Fast Reports" PreviewOptions.Buttons="4095" PreviewOptions.Zoom="1" PrintOptions.Printer="Default" PrintOptions.PrintOnSheet="0" ReportOptions.CreateDate="45065.723701713" ReportOptions.Description.Text="" ReportOptions.LastChange="45095.6063127199" ScriptLanguage="PascalScript" ScriptText.Text="begin&#13;&#10;&#13;&#10;end.">
+  <Datasets>
+    <item DataSetName="ADO_print"/>
+    <item DataSetName="ADObasic"/>
+  </Datasets>
+  <Variables>
+    <item Name=" alarm symbol"/>
+    <item Name="SymbolHigh" Value="��"/>
+    <item Name="SymbolLow" Value="��"/>
+  </Variables>
+  <TfrxDataPage Name="Data" Height="1000" Left="0" Top="0" Width="1000"/>
+  <TfrxReportPage Name="Page1" Font.Charset="134" Font.Color="0" Font.Height="-13" Font.Name="����" Font.Style="0" Orientation="poLandscape" PaperWidth="210" PaperHeight="148" PaperSize="11" LeftMargin="10" RightMargin="10" TopMargin="10" BottomMargin="10" Columns="2" ColumnWidth="95" ColumnPositions.Text="0&#13;&#10;95" HGuides.Text="" VGuides.Text="">
+    <TfrxPageHeader Name="PageHeader1" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Height="120.94488189" Left="0" Top="18.89765" Width="718.1107">
+      <TfrxMemoView Name="Memo1" Left="7.55906" Top="30.01577" Width="177.63791" Height="17.00787402" Font.Charset="134" Font.Color="0" Font.Height="-13" Font.Name="����" Font.Style="0" ParentFont="False" Text="姓  名：[ADObasic.&#34;姓名&#34;]"/>
+      <TfrxMemoView Name="Memo3" Left="7.55906" Top="0" Width="702.99258" Height="26.45671" Font.Charset="134" Font.Color="0" Font.Height="-24" Font.Name="����" Font.Style="1" HAlign="haCenter" ParentFont="False" Text="[SCSYDW]检验报告单"/>
+      <TfrxMemoView Name="Memo4" Left="253.22851" Top="30.01577" Width="177.63791" Height="17.007874015748" Font.Charset="134" Font.Color="0" Font.Height="-13" Font.Name="����" Font.Style="0" ParentFont="False" Text="门诊/住院号：[ADObasic.&#34;病历号&#34;]"/>
+      <TfrxMemoView Name="Memo5" Left="495.11843" Top="30.01577" Width="215.43321" Height="17.007874015748" Font.Charset="134" Font.Color="0" Font.Height="-13" Font.Name="����" Font.Style="0" ParentFont="False" Text="检验单号：[ADObasic.&#34;优先级别&#34;]   [ADObasic.&#34;联机号&#34;]   [ADObasic.&#34;流水号&#34;]">
+        <Formats>
+          <item/>
+          <item/>
+        </Formats>
+      </TfrxMemoView>
+      <TfrxMemoView Name="Memo6" Left="7.55906" Top="47.91342" Width="177.63791" Height="17.00787402" Font.Charset="134" Font.Color="0" Font.Height="-13" Font.Name="����" Font.Style="0" ParentFont="False" Text="性  别：[ADObasic.&#34;性别&#34;]"/>
+      <TfrxMemoView Name="Memo7" Left="253.22851" Top="47.91342" Width="177.63791" Height="17.007874015748" Font.Charset="134" Font.Color="0" Font.Height="-13" Font.Name="����" Font.Style="0" ParentFont="False" Text="科    室：[ADObasic.&#34;送检科室&#34;]"/>
+      <TfrxMemoView Name="Memo8" Left="495.11843" Top="47.91342" Width="215.43321" Height="17.007874015748" Font.Charset="134" Font.Color="0" Font.Height="-13" Font.Name="����" Font.Style="0" ParentFont="False" Text="标本类型：[ADObasic.&#34;样本类型&#34;]"/>
+      <TfrxMemoView Name="Memo9" Left="7.55906" Top="65.81107" Width="177.63791" Height="17.00787402" Font.Charset="134" Font.Color="0" Font.Height="-13" Font.Name="����" Font.Style="0" ParentFont="False" Text="年  龄：[ADObasic.&#34;年龄&#34;]"/>
+      <TfrxMemoView Name="Memo10" Left="253.22851" Top="65.81107" Width="177.63791" Height="17.007874015748" Font.Charset="134" Font.Color="0" Font.Height="-13" Font.Name="����" Font.Style="0" ParentFont="False" Text="床    号：[ADObasic.&#34;床号&#34;]"/>
+      <TfrxMemoView Name="Memo11" Left="495.11843" Top="65.81107" Width="215.43321" Height="17.007874015748" Font.Charset="134" Font.Color="0" Font.Height="-13" Font.Name="����" Font.Style="0" ParentFont="False" Text="标本状态：[ADObasic.&#34;样本情况&#34;]"/>
+      <TfrxMemoView Name="Memo12" Left="7.55906" Top="83.70872" Width="177.63791" Height="17.00787402" Font.Charset="134" Font.Color="0" Font.Height="-13" Font.Name="����" Font.Style="0" ParentFont="False" Text="送检医生：[ADObasic.&#34;送检医生&#34;]"/>
+      <TfrxMemoView Name="Memo13" Left="253.22851" Top="83.70872" Width="177.63791" Height="17.007874015748" Font.Charset="134" Font.Color="0" Font.Height="-13" Font.Name="����" Font.Style="0" ParentFont="False" Text="临床诊断：[ADObasic.&#34;临床诊断&#34;]"/>
+      <TfrxMemoView Name="Memo14" Left="495.11843" Top="83.70872" Width="215.43321" Height="17.007874015748" Font.Charset="134" Font.Color="0" Font.Height="-13" Font.Name="����" Font.Style="0" ParentFont="False" Text="备    注：[ADObasic.&#34;备注&#34;]"/>
+      <TfrxMemoView Name="Memo15" Left="7.55906" Top="102.16543" Width="64.25201" Height="17.00787402" Font.Charset="134" Font.Color="0" Font.Height="-13" Font.Name="����" Font.Style="0" ParentFont="False" Text="项目名称"/>
+      <TfrxLineView Name="Line1" Left="-0.22047" Top="101.3859" Width="718.1107" Height="0" Color="0" Frame.Typ="4"/>
+      <TfrxLineView Name="Line2" Left="-0.22047" Top="118.84261" Width="718.1107" Height="0" Color="0" Frame.Typ="4"/>
+      <TfrxMemoView Name="Memo28" Left="146.46475" Top="102.04731" Width="98.26760913" Height="17.00787402" Font.Charset="134" Font.Color="0" Font.Height="-13" Font.Name="����" Font.Style="0" ParentFont="False" Text="检验结果  单位"/>
+      <TfrxMemoView Name="Memo29" Left="285.62245" Top="102.04731" Width="60.47243118" Height="17.00787402" Font.Charset="134" Font.Color="0" Font.Height="-13" Font.Name="����" Font.Style="0" ParentFont="False" Text="参考范围"/>
+      <TfrxMemoView Name="Memo16" Left="366.61441" Top="102.16543" Width="64.25201" Height="17.00787402" Font.Charset="134" Font.Color="0" Font.Height="-13" Font.Name="����" Font.Style="0" ParentFont="False" Text="项目名称"/>
+      <TfrxMemoView Name="Memo30" Left="505.5201" Top="102.04731" Width="98.26760913" Height="17.00787402" Font.Charset="134" Font.Color="0" Font.Height="-13" Font.Name="����" Font.Style="0" ParentFont="False" Text="检验结果  单位"/>
+      <TfrxMemoView Name="Memo31" Left="644.6778" Top="102.04731" Width="60.47243118" Height="17.00787402" Font.Charset="134" Font.Color="0" Font.Height="-13" Font.Name="����" Font.Style="0" ParentFont="False" Text="参考范围"/>
+      <TfrxLineView Name="Line5" Left="359.05535" Top="120.94496" Width="0" Height="192.75603" Color="0" Frame.Typ="1"/>
+    </TfrxPageHeader>
+    <TfrxMasterData Name="MasterData1" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Height="17.00787402" Left="0" Top="200.31509" Width="359.05535" ColumnWidth="0" ColumnGap="0" DataSetName="ADO_print" RowCount="0" Stretched="True">
+      <TfrxMemoView Name="Memo2" Left="7.55906" Top="0" Width="143.62214" Height="17.00787402" StretchMode="smMaxHeight" AutoWidth="True" Text="[ADO_print.&#34;名称&#34;]">
+        <Formats>
+          <item/>
+          <item/>
+        </Formats>
+      </TfrxMemoView>
+      <TfrxMemoView Name="Memo17" Left="153.26005" Top="0" Width="147.40167" Height="17.00787402" AutoWidth="True" Text="[ADO_print.&#34;检验结果&#34;] [CXZF]"/>
+      <TfrxMemoView Name="Memo18" Left="229.1342" Top="0" Width="83.14966" Height="17.00787402" StretchMode="smActualHeight" AutoWidth="True" Font.Charset="134" Font.Color="0" Font.Height="-13" Font.Name="����" Font.Style="0" HAlign="haRight" ParentFont="False" Text="[ADO_print.&#34;前段参考范围&#34;]"/>
+      <TfrxMemoView Name="Memo19" Left="312.28386" Top="0" Width="98.26773118" Height="17.00787402" StretchMode="smActualHeight" AutoWidth="True" Text="[ADO_print.&#34;后段参考范围&#34;]"/>
+      <TfrxMemoView Name="Memo20" Left="208.66172" Top="0" Width="60.47248" Height="17.00787402" AutoWidth="True" Text="[ADO_print.&#34;单位&#34;]"/>
+    </TfrxMasterData>
+    <TfrxPageFooter Name="PageFooter1" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Height="124.72440945" Left="0" Top="279.68522" Width="718.1107">
+      <TfrxMemoView Name="Memo23" Left="449.76407" Top="89.55906" Width="94.48825" Height="17.007874015748" Text="操作者：[ADObasic.&#34;操作者&#34;]"/>
+      <TfrxMemoView Name="Memo24" Left="593.38621" Top="89.55906" Width="117.16543" Height="17.007874015748" Text="审核者："/>
+      <TfrxMemoView Name="Memo25" Left="7.55906" Top="107.45671" Width="170.07885" Height="17.007874015748" Text="本结果仅对该份标本负责!"/>
+      <TfrxMemoView Name="Memo26" Left="207.87415" Top="107.45671" Width="211.65368" Height="17.007874015748" Text="打印时间：[DATE] [TIME]"/>
+      <TfrxMemoView Name="Memo27" Left="449.76407" Top="107.45671" Width="170.07885" Height="17.007874015748" Text="(共[TotalPages#]页 第[Page#]页)"/>
+      <TfrxLineView Name="Line3" Left="0" Top="86.77953" Width="718.1107" Height="0" Color="0" Frame.Typ="4"/>
+      <TfrxMemoView Name="Memo21" Left="7.55906" Top="89.55906" Width="192.75603" Height="17.007874015748" Text="申请日期：[formatdatetime('YYYY-MM-DD',&#60;ADObasic.&#34;申请日期&#34;&#62;)]"/>
+      <TfrxMemoView Name="Memo22" Left="207.87415" Top="89.55906" Width="211.65368" Height="17.007874015748" Text="检查日期：[formatdatetime('YYYY-MM-DD',&#60;ADObasic.&#34;检查日期&#34;&#62;)]"/>
+      <TfrxPictureView Name="Picture1028" Left="15.11812" Top="3.55906" Width="136.06308" Height="83.1496062992126" HightQuality="False" Transparent="False" TransparentColor="16777215"/>
+      <TfrxPictureView Name="Picture1029" Left="185.19697" Top="3.77953" Width="136.06308" Height="83.1496062992126" HightQuality="False" Transparent="False" TransparentColor="16777215"/>
+      <TfrxPictureView Name="Picture1030" Left="374.17347" Top="3.77952756" Width="136.06308" Height="83.1496062992126" HightQuality="False" Transparent="False" TransparentColor="16777215"/>
+      <TfrxPictureView Name="Picture10300" Left="540.47279" Top="3.77953" Width="136.06308" Height="83.1496062992126" HightQuality="False" Transparent="False" TransparentColor="16777215"/>
+      <TfrxLineView Name="Line4" Left="0.33859" Top="0" Width="718.1107" Height="0" Color="0" Frame.Typ="4"/>
+    </TfrxPageFooter>
+  </TfrxReportPage>
+</TfrxReport>
