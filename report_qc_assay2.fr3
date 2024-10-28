@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TfrxReport Version="5.4.6" DotMatrixReport="False" IniFile="\Software\Fast Reports" PreviewOptions.Buttons="4095" PreviewOptions.Zoom="1" PrintOptions.Printer="Ԥ��" PrintOptions.PrintOnSheet="0" ReportOptions.CreateDate="45592.6486870023" ReportOptions.Description.Text="" ReportOptions.LastChange="45593.6689061343" ScriptLanguage="PascalScript" ScriptText.Text="begin&#13;&#10;&#13;&#10;end.">
+  <TfrxDataPage Name="Data" Height="1000" Left="0" Top="0" Width="1000"/>
+  <TfrxReportPage Name="Page1" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="����" Font.Style="0" PaperWidth="210" PaperHeight="297" PaperSize="9" LeftMargin="10" RightMargin="10" TopMargin="10" BottomMargin="10" Columns="3" ColumnWidth="63.3333333333333" ColumnPositions.Text="0&#13;&#10;63.3333333333333&#13;&#10;126.666666666667" HGuides.Text="" VGuides.Text="">
+    <TfrxMasterData Name="MasterData1" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Height="20.7874015748031" Left="0" Top="306.14193" Width="239.370233333333" ColumnWidth="0" ColumnGap="0" RowCount="0">
+      <TfrxMemoView Name="Memo27" Left="18.89765" Top="0" Width="37.7953" Height="18.89765" Text="[ADOQuery2.&#34;日期&#34;]"/>
+      <TfrxMemoView Name="Memo28" Left="56.69295" Top="0" Width="56.69291339" Height="18.89765" Text="[ADOQuery2.&#34;高值&#34;]"/>
+      <TfrxMemoView Name="Memo29" Left="113.3859" Top="0" Width="56.69291339" Height="18.89765" Text="[ADOQuery2.&#34;常值&#34;]"/>
+      <TfrxMemoView Name="Memo30" Left="170.07885" Top="0" Width="56.69291339" Height="18.89765" Text="[ADOQuery2.&#34;低值&#34;]"/>
+    </TfrxMasterData>
+    <TfrxPageFooter Name="PageFooter1" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Height="563.9295" Left="0" Top="389.29159" Width="718.1107">
+      <TfrxPictureView Name="PictureHigh" Left="37.7953" Top="4.33859" Width="642.5201" Height="185.19697" HightQuality="False" Transparent="False" TransparentColor="16777215"/>
+      <TfrxLineView Name="Line1" Left="1.77953" Top="0" Width="714.33117" Height="0" Color="0" Frame.Typ="4"/>
+      <TfrxPictureView Name="PictureMid" Left="37.7953" Top="189.75603" Width="642.5201" Height="185.19697" HightQuality="False" Transparent="False" TransparentColor="16777215"/>
+      <TfrxPictureView Name="PictureLow" Left="37.7953" Top="374.953" Width="642.5201" Height="185.19697" HightQuality="False" Transparent="False" TransparentColor="16777215"/>
+    </TfrxPageFooter>
+    <TfrxPageHeader Name="PageHeader1" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Height="226.7718" Left="0" Top="18.89765" Width="718.1107">
+      <TfrxShapeView Name="Shape1" Left="7.55906" Top="37.7953" Width="699.21305" Height="185.19697"/>
+      <TfrxMemoView Name="Memo1" Left="151.1812" Top="3.77953" Width="415.7483" Height="34.01577" Font.Charset="1" Font.Color="0" Font.Height="-29" Font.Name="����" Font.Style="1" HAlign="haCenter" ParentFont="False" Text="医学检验质控图"/>
+      <TfrxMemoView Name="Memo2" Left="570.70903" Top="18.89765" Width="136.06308" Height="18.89765" Text="[ADOQuery1.&#34;年份&#34;] 年 [ADOQuery1.&#34;月份&#34;] 月">
+        <Formats>
+          <item/>
+          <item/>
+        </Formats>
+      </TfrxMemoView>
+      <TfrxMemoView Name="Memo3" Left="18.89765" Top="47.7953" Width="207.87415" Height="18.89765" Text="检验项目：[ADOQuery1.&#34;项目名称&#34;]"/>
+      <TfrxMemoView Name="Memo4" Left="257.00804" Top="47.7953" Width="211.65368" Height="18.89765" Text="质控物批号：[ADOQuery1.&#34;标本批号&#34;]"/>
+      <TfrxMemoView Name="Memo5" Left="495.11843" Top="47.7953" Width="204.094488188976" Height="18.89765" Text="仪器型号：[ADOQuery1.&#34;实验设备&#34;]"/>
+      <TfrxMemoView Name="Memo6" Left="18.89765" Top="66.69295" Width="207.87415" Height="18.89765" Text="标本类型：[ADOQuery1.&#34;标本类型&#34;]"/>
+      <TfrxMemoView Name="Memo7" Left="257.00804" Top="66.69295" Width="215.43321" Height="18.89765" Text="检验方法：[ADOQuery1.&#34;实验方法&#34;]"/>
+      <TfrxMemoView Name="Memo8" Left="495.11843" Top="66.69295" Width="204.094488188976" Height="18.89765" Text="波长：[ADOQuery1.&#34;波长&#34;]"/>
+      <TfrxMemoView Name="Memo9" Left="18.89765" Top="85.5906" Width="207.87415" Height="18.89765" Text="高值靶值：[ADOQuery1.&#34;高值靶值&#34;]"/>
+      <TfrxMemoView Name="Memo10" Left="257.00804" Top="85.5906" Width="215.43321" Height="18.89765" Text="高值SD：[ADOQuery1.&#34;高值SD&#34;]"/>
+      <TfrxMemoView Name="Memo11" Left="495.11843" Top="85.5906" Width="204.09448819" Height="18.89765" Text="高值CV(%)：[HighCV]"/>
+      <TfrxMemoView Name="Memo12" Left="18.89765" Top="104.48825" Width="207.87415" Height="18.89765" Text="计算高值均值：[HighCalaAvg]"/>
+      <TfrxMemoView Name="Memo13" Left="257.00804" Top="104.48825" Width="215.43321" Height="18.89765" Text="计算高值SD：[HighCalaSD]"/>
+      <TfrxMemoView Name="Memo14" Left="495.11843" Top="104.48825" Width="204.09448819" Height="18.89765" Text="计算高值CV(%)：[HighCalaCV]"/>
+      <TfrxMemoView Name="Memo15" Left="18.89765" Top="123.3859" Width="207.87415" Height="18.89765" Text="常值靶值：[ADOQuery1.&#34;常值靶值&#34;]"/>
+      <TfrxMemoView Name="Memo16" Left="257.00804" Top="123.3859" Width="215.43321" Height="18.89765" Text="常值SD：[ADOQuery1.&#34;常值SD&#34;]"/>
+      <TfrxMemoView Name="Memo17" Left="495.11843" Top="123.3859" Width="204.09448819" Height="18.89765" Text="常值CV(%)：[MidCV]"/>
+      <TfrxMemoView Name="Memo18" Left="18.89765" Top="142.28355" Width="207.87415" Height="18.89765" Text="计算常值均值：[MidCalaAvg]"/>
+      <TfrxMemoView Name="Memo19" Left="257.00804" Top="142.28355" Width="215.43321" Height="18.89765" Text="计算常值SD：[MidCalaSD]"/>
+      <TfrxMemoView Name="Memo20" Left="495.11843" Top="142.28355" Width="204.09448819" Height="18.89765" Text="计算常值CV(%)：[MidCalaCV]"/>
+      <TfrxMemoView Name="Memo21" Left="18.89765" Top="161.1812" Width="207.87415" Height="18.89765" Text="低值靶值：[ADOQuery1.&#34;低值靶值&#34;]"/>
+      <TfrxMemoView Name="Memo22" Left="257.00804" Top="161.1812" Width="215.43321" Height="18.89765" Text="低值SD：[ADOQuery1.&#34;低值SD&#34;]"/>
+      <TfrxMemoView Name="Memo23" Left="495.11843" Top="161.1812" Width="204.09448819" Height="18.89765" Text="低值CV(%)：[LowCV]"/>
+      <TfrxMemoView Name="Memo24" Left="18.89765" Top="180.07885" Width="207.87415" Height="18.89765" Text="计算低值均值：[LowCalaAvg]"/>
+      <TfrxMemoView Name="Memo25" Left="257.00804" Top="180.07885" Width="215.43321" Height="18.89765" Text="计算低值SD：[LowCalaSD]"/>
+      <TfrxMemoView Name="Memo26" Left="495.11843" Top="180.07885" Width="204.09448819" Height="18.89765" Text="计算低值CV(%)：[LowCalaCV]"/>
+      <TfrxMemoView Name="Memo31" Left="18.89765" Top="202.55133" Width="196.53556" Height="18.89765" Text="日期 高值    常值    低值"/>
+      <TfrxMemoView Name="Memo32" Left="257.00804" Top="202.58267717" Width="196.53556" Height="18.89765" Text="日期  高值   常值    低值"/>
+      <TfrxMemoView Name="Memo33" Left="495.11843" Top="202.58267717" Width="196.53556" Height="18.89765" Text="日期  高值   常值    低值"/>
+      <TfrxLineView Name="Line3" Left="7.55906" Top="199.53556" Width="699.21305" Height="0" Color="0" Frame.Typ="4"/>
+    </TfrxPageHeader>
+  </TfrxReportPage>
+</TfrxReport>
